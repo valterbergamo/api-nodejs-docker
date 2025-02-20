@@ -13,7 +13,7 @@ app.get("/", (req, res, next) => {
 });
 
 app.get("/test", (req, res, next) => {
-  res.json(["Valter", "Bergamo"]);
+  res.json(["Valter", "Bergamo", "Felipe"]);
 });
 
 //Teste commit
