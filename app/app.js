@@ -12,8 +12,8 @@ app.get("/", (req, res, next) => {
   );
 });
 
-app.get("/cdfs", (req, res, next) => {
-  res.json(["Valter", "bergamo"]);
+app.get("/test", (req, res, next) => {
+  res.json(["Valter", "Bergamo"]);
 });
 
 //Teste commit
